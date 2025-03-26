@@ -50,7 +50,7 @@ Answer: <input type="number" name="answer" id="answer"> <button onclick="submitA
         current += 1;
         index = Math.floor(Math.random() * problems.length);
         problem = problems[index];
-        document.getElementById("problem").innerHTML = problem.problem;
+        document.getElementById("problem").innerHTML = `(<i>${problem.source}</i>) ${problem.problem}`;
         MathJax.typeset();
         let time = problem.timeLimit;
         document.getElementById("time").innerHTML = time;
