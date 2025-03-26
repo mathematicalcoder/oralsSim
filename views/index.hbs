@@ -46,6 +46,7 @@ Answer: <input type="number" name="answer" id="answer"> <button onclick="submitA
         document.getElementById("answer").disabled = false;
         document.getElementById("submit").disabled = false;
         document.getElementById("message").innerHTML = "";
+        current += 1;
         index = Math.floor(Math.random() * problems.length);
         problem = problems[index];
         document.getElementById("problem").innerHTML = problem.problem;
@@ -76,6 +77,7 @@ Answer: <input type="number" name="answer" id="answer"> <button onclick="submitA
         } else {
             document.getElementById("message").innerHTML = "Incorrect! The answer is " + problem.answer;
         }
+        document.getElementById("current").innerHTML = current;
     }
 </script>
 
