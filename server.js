@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
     const data = JSON.parse(fs.readFileSync('data/problems.json', 'utf8'));
-    res.render('index.hbs', {problems: data.problems});
+    res.render('index.hbs', {problems: JSON.stringify(data)});
 })
 
 app.get('/add', (req, res) => {

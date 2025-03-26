@@ -119,6 +119,90 @@
       "timeLimit": "60",
       "problem": "Patrick is tired of the usual \"odd\" or \"even\" numbers. Instead, he decided to call a number Eyoh, Poze, or Acheje if it leaves a remainder of 1, 2, or 0 respectively when divided by 3. Let $A$ be the set of all multiples of 7 in $[1,2015]$, while $B$ is the set of integers in $[1,2015]$ that are not multiples of 8. Determine the number of all ordered pairs $(a,b)$ such that $a\\in A$, $b\\in B$, and $a+b$ is Poze.",
       "answer": "168756"
+    },
+    {
+      "source": "2009 Mathira Survival I E1",
+      "timeLimit": "20",
+      "problem": "Find the value of x that satisfies the equation $3^{x−3} + 3^{x−4} + 2(3^{x−1}) = 522$",
+      "answer": "6"
+    },
+    {
+      "source": "Mathira 2015 SR-A5",
+      "timeLimit": "60",
+      "problem": "$\\triangle ABC$ has side lengths $AB=13$, $AC=15$, and $BC=\\sqrt{58}$. If $\\tan\\angle BAC=\\frac ab$ where $a$ and $b$ are relatively prime positive integers, find $a+b$.",
+      "answer": "89"
+    },
+    {
+      "source": "Mathira 2015 SR-D1",
+      "timeLimit": "60",
+      "problem": "Junior is listing a sequence $2,3,5,6,7,8,10,\\dots$ that consists of positive integers which are not perfect squares. Thirdie is also listing a sequence $2,3,4,5,6,7,9,10,\\dots$ that consists of positive integers which are not perfect cubes. What is the positive difference between the 2015th terms of the two sequences?",
+      "answer": "33"
+    },
+    {
+      "source": "Mathira 2015 SR-D2",
+      "timeLimit": "90",
+      "problem": "Let $N$ be an odd natural number such that the sum of all $N$-digit palindromes is $495000\\dots000$, which has 2015 zeroes. Determine the value of $N$. (For this problem, we will not consider 01210 as a palindrome, as do all other numbers with zero as its first and last digit.)",
+      "answer": "1345"
+    },
+    {
+      "source": "2009 Mathira Survival II A4",
+      "timeLimit": "30",
+      "problem": "A number is selected at random from the set {1!, 2!, . . . , 100!}. The probability that the number is divisible by 2009 is $\\frac{m}{n}$ where m & n are relatively prime positive integers. Find m + n.",
+      "answer": "8"
+    },
+    {
+      "source": "Mathira 2015 SR-D3",
+      "timeLimit": "90",
+      "problem": "In square $ILAX$ with center $O$, a point $P$ is randomly chosen in its interior. The probability that $\\triangle PAL$ is an acute triangle and that the length $2PO\\le AL$ can be expressed as $\\frac{a\\pi+\\sqrt b}{c}$ where $a,b,c$ are positive integers and the fraction is written in lowest terms. What is $a+b+c$?",
+      "answer": "53"
+    },
+    {
+      "source": "2009 Mathira Quarterfinals E4",
+      "timeLimit": "30",
+      "problem": "Let D be the set of all integers b such that $\\frac{2009}{b}$\r\nis an integer. Find the sum of all elements of D. ",
+      "answer": "0"
+    },
+    {
+      "source": "Mathira 2015 SR-D4",
+      "timeLimit": "90",
+      "problem": "Let $w,x,y,z$ be real numbers satisfying the conditions $w+x+y+z=9$, $xy+yz+xz+wx+wy+wz=27$. The largest possible value of $w$ can be expressed as $\\frac ab$ where $a$ and $b$ are relatively prime positive integers. Find $a+b$.",
+      "answer": "11"
+    },
+    {
+      "source": "2019 Mathira Tier 6-1",
+      "timeLimit": "30",
+      "problem": "If the Cartesian equation of the set of points whose sum of distances from two points (14, 3)\r\nand (6, 3) is 11 can be expressed as $\\frac{a(x - b)^{2}}{c} + \\frac{d(y - e)^{2}}{f} = 1$ where a & c are coprime, d & f are coprime, determine a + b + c + d + e + f.",
+      "answer": "199"
+    },
+    {
+      "source": "Mathira 2015 SR-D5",
+      "timeLimit": "90",
+      "problem": "Rachelle and her new friend, Jessa the Chocolate Thief, eat their shared stash of 100 chocolates in a weird way. On some day of the week that they randomly picked, they start eating. Each of them eats one chocolate per day every day until they decide to stop eating their share. Once one of them stops eating, the other continues eating the rest in the same one-chocolate-per-day diet until they finish. The probability that Rachelle eats her last chocolate on a Tuesday while Jessa eats her last chocolate on a Thursday can be expressed as $\\frac ab$ where $a,b$ are relatively prime positive integers. Find $a+b$.",
+      "answer": "101"
+    },
+    {
+      "source": "Mathcounts 2024 State Countdown 20",
+      "timeLimit": "10",
+      "problem": "How many lines of symmetry does a regular 18-gon have?",
+      "answer": "18"
+    },
+    {
+      "source": "Mathcounts 2024 State Countdown 27",
+      "timeLimit": "10",
+      "problem": "How many two-digit integers are multiples of eight?",
+      "answer": "11"
+    },
+    {
+      "source": "Mathcounts 2024 State Countdown 32",
+      "timeLimit": "10",
+      "problem": "What is the greatest prime factor of $333\\times17$?",
+      "answer": "37"
+    },
+    {
+      "source": "Mathcounts 2024 State Countdown 39",
+      "timeLimit": "10",
+      "problem": "What is the units digit of $2023^{2021}+2021^{2023}$?",
+      "answer": "4"
     }
   ]
 }

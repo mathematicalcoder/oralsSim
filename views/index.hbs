@@ -1,3 +1,87 @@
+<html>
+<body>
 <h1>Oral math competition simulator</h1>
 
-Still under construction!
+<button onclick="giveProblem();" id="newProblem">New problem</button> Time left: <b><span id="time">0</span></b> seconds. Score: <b><span id="score">0</span></b> points.<br>
+
+<div id="problem" class="callout">The problem will appear here</div>
+
+Answer: <input type="number" name="answer" id="answer"> <button onclick="submitAnswer();" id="submit">Submit answer</button> <b><span id="message"></span></b>
+
+<link rel="stylesheet" type="text/css" href="https://mathemolympiad-css.glitch.me/style.css">
+
+<style>
+    input {
+        width: 300px;
+    }
+    div.callout {
+        margin: 10px;
+        color: black;
+    }
+</style>
+
+<script id="data" type="application/json">
+    {{{problems}}}
+</script>
+
+<script>
+    let index = 0;
+    let data = JSON.parse(document.getElementById('data').textContent);
+    let problems = data["problems"];
+    let problem = problems[index];
+    let current = 0;
+    let score = 0;
+    let countdown = 0;
+    function giveProblem() {
+        document.getElementById("newProblem").disabled = true;
+        document.getElementById("answer").disabled = false;
+        document.getElementById("submit").disabled = false;
+        document.getElementById("message").innerHTML = "";
+        index = Math.floor(Math.random() * problems.length);
+        problem = problems[index];
+        document.getElementById("problem").innerHTML = problem.problem;
+        MathJax.typeset();
+        let time = problem.timeLimit;
+        document.getElementById("time").innerHTML = time;
+        countdown = setInterval(function(){
+            time -= 1;
+            document.getElementById("time").innerHTML = time;
+            if (time == 0) {
+                clearInterval(countdown);
+                document.getElementById("answer").disabled = true;
+            document.getElementById("submit").disabled = true;
+            document.getElementById("newProblem").disabled = false;
+            }
+        }, 1000);
+    }
+    function submitAnswer() {
+        clearInterval(countdown);
+        document.getElementById("answer").disabled = true;
+        document.getElementById("submit").disabled = true;
+        document.getElementById("newProblem").disabled = false;
+        let userAnswer = document.getElementById("answer").value;
+        if (userAnswer == problem.answer) {
+            score += 1;
+            document.getElementById("message").innerHTML = "Correct!";
+            document.getElementById("score").innerHTML = score;
+        } else {
+            document.getElementById("message").innerHTML = "Incorrect! The answer is " + problem.answer;
+        }
+    }
+</script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+MathJax = {
+tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+},
+svg: {
+    fontCache: 'global'
+}
+};
+</script>
+</body>
+</html>
