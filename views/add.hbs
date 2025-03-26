@@ -1,0 +1,36 @@
+<h2>Add problem</h2>
+<form id="addProblem" method="POST" action="/add/submit">
+Source: <input type="text" name="source" id="source"><br>
+Time limit (seconds): <input type="number" name="timeLimit" id="timeLimit"><br>
+Problem:<br>
+<textarea name="problem" id="problem"></textarea><br>
+Answer (integer): <input type="number" name="answer" id="answer"><br>
+<input type="submit">
+</form>
+<h2>Current problem list</h2>
+<ul>
+{{#each problems}}
+<li><b>{{this.source}}</b> ({{this.timeLimit}} seconds, answer: {{this.answer}}): {{{this.problem}}}</li>
+{{/each}}
+</ul>
+
+<style>
+  textarea {
+    width: 500px;
+    height: 200px;
+  }
+</style>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+MathJax = {
+tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+},
+svg: {
+    fontCache: 'global'
+}
+};
+</script>

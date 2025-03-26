@@ -1,0 +1,124 @@
+{
+  "problems": [
+    {
+      "source": "Mathira 2013 SR-E1",
+      "timeLimit": "30",
+      "problem": "The 16 members of Repahpeepz 08A want to adopt chinchilias as pets. The total number of chinchillas they would be adopting is same as the number of ways you can arrange the letters they would be adopting is same as the number of ways you can arrange the letters of the word CHINCHILLA such that the first letter and the last letter are not the same, and they agreed that they would not be naming an equal number of chinchillas. As a member of the group, how many names should Vic come up with?",
+      "answer": "12915"
+    },
+    {
+      "source": "Mathira 2013 SR-E2",
+      "timeLimit": "30",
+      "problem": "How much would it take to completely surround a Php 5 coin with Php 5 coins in ten layers such that each coin is tangent to at least three coins? (Do not include the \"Php\")",
+      "answer": "1650"
+    },
+    {
+      "source": "Mathira 2013 SR-E4",
+      "timeLimit": "30",
+      "problem": "If the greatest common divisor and least common multiple of two positive integers are 12 and 168, respectively, and the sum of the two numbers is 108, what is the sum of their squares?",
+      "answer": "7632"
+    },
+    {
+      "source": "Mathira 2013 SR-E5",
+      "timeLimit": "30",
+      "problem": "An integer $n$ is randomly chosen from 1 to 48. The probability that the chosen integer will make the expression $\\frac n{50-n}$ a perfect square integer can be expressed as $\\frac ab$ where $a$ and $b$ are relatively prime positive integers. Find $a+b$.",
+      "answer": "17"
+    },
+    {
+      "source": "Mathira 2013 SR-A1",
+      "timeLimit": "60",
+      "problem": "The sum of all real values of $b$ that satisfy the equations\r\n$$\\begin{cases}\r\n    a^2b^4+a^2b^2+a^2=525\\\\\r\n    ab^2+ab+a=35\r\n\\end{cases}$$ can be expressed as $\\frac ab$ where $a$ and $b$ are relatively prime positive integers. Find $a+b$.",
+      "answer": "7"
+    },
+    {
+      "source": "Mathira 2013 SR-A2",
+      "timeLimit": "60",
+      "problem": "Let $P$ be the sum of all $\\binom 8p$, where $p$ is prime, and $Q$ be the sum of all $\\binom 8q$, where $q$ is a nonnegative integer which is not prime. If $P:Q=a:b$ where $a$ and $b$ are relatively prime positive integers, find $a+b$.",
+      "answer": "64"
+    },
+    {
+      "source": "Mathira 2013 SR-A3",
+      "timeLimit": "60",
+      "problem": "The function $g(x)$ satisfies the equations $g(x)=g(x-1)+g(x+1)$ for all integral values of $x$. If $g(1)=1$ and $g(2)=3$, what is the value of $g(20)+g(13)+g(2013)$?",
+      "answer": "6"
+    },
+    {
+      "source": "Mathira 2013 SR-A4",
+      "timeLimit": "60",
+      "problem": "Let $x$ be a real number such that $\\cot x+\\tan x=3$. Find $\\cot^5x+\\tan^5x$.",
+      "answer": "123"
+    },
+    {
+      "source": "Mathira 2013 SR-A5",
+      "timeLimit": "60",
+      "problem": "Philippine Tournament Bridge Association’s new members Jojo, Bogart, Shaniqua, and Chanda May are playing the card game $\\textit{Bridge}$, and they do not know who should be the first dealer. To decide fairly in the Filipino way, they play $\\textit{maiba}$, where each player shows palms up or palms down in a single round, and a dealer is decided when exactly one player shows his or her palm differently - $\\textit{naiba}$ - from the others. The probability that they will not have a dealer after three rounds can be expressed as $\\frac ab$ where $a$ and $b$ are relatively prime positive integers. Find $a+b$.",
+      "answer": "9"
+    },
+    {
+      "source": "Mathira 2013 SR-D1",
+      "timeLimit": "90",
+      "problem": "If $A$, $B$, $P$, and $T$ are four random integers, the probability that $PT-BA$ is divisible by 3 can be expressed as $\\frac ab$ where $a$ and $b$ are relatively prime positive integers. Find $a+b$.",
+      "answer": "38"
+    },
+    {
+      "source": "Mathira 2013 SR-D3",
+      "timeLimit": "90",
+      "problem": "A's favorite number is $2^{20}13^{13}$. Determine the number of positive factors of the square of A's favorite number which are less than it but does not divide it.",
+      "answer": "260"
+    },
+    {
+      "source": "Mathira 2015 SR-E1",
+      "timeLimit": "30",
+      "problem": "Princess Sarah and Becky are peeling potatoes. Given the same number $P$ of potatoes, Princess Sarah can finish peeling them alone 2 hours and 36 minutes before Becky can, alone. If Princess Sarah is given $P+\\frac P2$ potatoes while Becky is given $\\frac{9P}{10}$ potatoes, they finish at the same time if they both work alone. Both girls work at constant rates. If Becky helps Princess Sarah peel 2015 potatoes, how many minutes does Princess Sarah save?",
+      "answer": "26"
+    },
+    {
+      "source": "Mathira 2015 SR-E2",
+      "timeLimit": "30",
+      "problem": "Let a 5-digit number be termed a \"valley\" number if the digits (not necessarily distinct) in the number $\\overline{abcde}$ satisfy $a>b>c$ and $c<d<e$. Compute the number of valley numbers that start with 4.",
+      "answer": "185"
+    },
+    {
+      "source": "Mathira 2015 SR-E4",
+      "timeLimit": "30",
+      "problem": "We define a positive integer $p$ to be $\\textit{almost prime}$ if it has exactly one divisor except 1 and $p$. Compute the sum of the first 5 numbers which are almost prime.",
+      "answer": "208"
+    },
+    {
+      "source": "Mathira 2015 SR-E5",
+      "timeLimit": "30",
+      "problem": "Norman and Vincent's grades always differ by at most 5.00. Otherwise, they become suspicious of their teacher's grading style. One day, Ms. Forgetful lost all the final exam papers of her students. She was so agitated, she decided to give her students real number grades randomly chosen from 0 to 100. The probability that Ms. Forgetful does not attract suspicion from Norman and Vincent can be expressed as $\\frac ab$ where $a$ and $b$ are relatively prime positive integers. Find $a+b$.",
+      "answer": "439"
+    },
+    {
+      "source": "Mathira 2015 SR-E3",
+      "timeLimit": "30",
+      "problem": "As shown in the figure, $ABCD$ is a convex quadrilateral with $M$, $N$, $O$, and $P$ as the midpoints of its sides. $WXYZ$ is the quadrilateral formed by the intersections of $AM$, $BN$, $CO$, and $DP$. Given that the areas of $ABCD$, $AWXO$, and $CMZY$ are $1500~\\text{units}^2$, $308~\\text{units}^2$, and $227~\\text{units}^2$, respectively, find the area of $WXYZ$. (Do not include units)\r\n\r\n<center><img src=\"https://i.ibb.co/W4qt48MD/image.png\"></center>",
+      "answer": "215"
+    },
+    {
+      "source": "Mathira 2015 SR-A1",
+      "timeLimit": "60",
+      "problem": "Brian and Daniel are playing a game. Brian tells Daniel, \"I am thinking of a polynomial function $f(x)$ with nonnegative integer coefficients.\" On a whim, Daniel asks, \"What is $f(11)$?\", to which Brian replies, \"29669\". Daniel asks once more, \"What is the sum of the coefficients?\" to which Brian replies \"9\". After a few minutes, Daniel realizes what the polynomial $f(x)$ is. Determine $f(2)$.",
+      "answer": "50"
+    },
+    {
+      "source": "Mathira 2015 SR-A2",
+      "timeLimit": "60",
+      "problem": "Russ is tired of math questions that ask for the probability of the sum of dice values. Instead he does this: he rolls three fair dice and notes the probability that the sum of the faces of the dice is equal to $X$ is $\\frac 7{72}$. What is the product of all possible values of $X$?",
+      "answer": "104"
+    },
+    {
+      "source": "Mathira 2015 SR-A3",
+      "timeLimit": "60",
+      "problem": "Given a number $N$ with exactly 9 factors, what is the sum of the factors whenever $N\\le10000$ and $N-1$ is divisible by 6?",
+      "answer": "1333"
+    },
+    {
+      "source": "Mathira 2015 SR-A4",
+      "timeLimit": "60",
+      "problem": "Patrick is tired of the usual \"odd\" or \"even\" numbers. Instead, he decided to call a number Eyoh, Poze, or Acheje if it leaves a remainder of 1, 2, or 0 respectively when divided by 3. Let $A$ be the set of all multiples of 7 in $[1,2015]$, while $B$ is the set of integers in $[1,2015]$ that are not multiples of 8. Determine the number of all ordered pairs $(a,b)$ such that $a\\in A$, $b\\in B$, and $a+b$ is Poze.",
+      "answer": "168756"
+    }
+  ]
+}

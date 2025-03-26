@@ -1,0 +1,28 @@
+{
+  "name": "oralssim",
+  "version": "1.0.0",
+  "description": "A simulation for Philippine oral math competitions.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "matholympiad"
+  ],
+  "author": "Kaiser Chan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.19.80",
+    "body-parser": "^2.1.0",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "hbs": "^4.2.0",
+    "leveldown": "^6.1.1",
+    "levelup": "^5.1.1",
+    "moment": "^2.30.1",
+    "node-fetch": "^3.2.6",
+    "path": "^0.12.7",
+    "solution": "^0.1.1"
+  }
+}
