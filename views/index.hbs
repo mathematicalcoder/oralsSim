@@ -46,6 +46,7 @@ Answer: <input type="number" name="answer" id="answer"> <button onclick="submitA
         document.getElementById("answer").disabled = false;
         document.getElementById("submit").disabled = false;
         document.getElementById("message").innerHTML = "";
+        document.getElementById("answer").value = "";
         current += 1;
         index = Math.floor(Math.random() * problems.length);
         problem = problems[index];
@@ -95,4 +96,5 @@ svg: {
 };
 </script>
 </body>
+  <footer>Made by Kaiser Chan. (ChatGPT helped fix errors)</footer>
 </html>
