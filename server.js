@@ -14,8 +14,13 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
     const data = JSON.parse(fs.readFileSync('data/problems.json', 'utf8'));
-    res.render('index.hbs', { problems: JSON.stringify(data, null, 2).replace(/</g, '\\u003c') });
-})
+
+    // Ensure JSON is safely escaped and stringified
+    res.render('index.hbs', {
+        problems: JSON.stringify(data, null, 2)
+            .replace(/</g, '\\u003c')  // Prevent HTML injection issues
+    });
+});
 
 app.get('/add', (req, res) => {
     const data = JSON.parse(fs.readFileSync('data/problems.json', 'utf8'));
