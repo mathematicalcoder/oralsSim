@@ -62,6 +62,7 @@ Answer: <input type="number" name="answer" id="answer"> <button onclick="submitA
                 document.getElementById("answer").disabled = true;
             document.getElementById("submit").disabled = true;
             document.getElementById("newProblem").disabled = false;
+            document.getElementById("message").innerHTML = "The answer is " + problem.answer;
             }
         }, 1000);
     }
