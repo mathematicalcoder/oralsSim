@@ -1,5 +1,5 @@
-<h2>Add problem</h2>
-<form id="addProblem" method="POST" action="/add/submit">
+<h2 class="noprint">Add problem</h2>
+<form id="addProblem" method="POST" action="/add/submit" class="noprint">
 Source: <input type="text" name="source" id="source"><br>
 Time limit (seconds): <input type="number" name="timeLimit" id="timeLimit"><br>
 Problem:<br>
@@ -18,6 +18,9 @@ Answer (integer): <input type="number" name="answer" id="answer"><br>
   textarea {
     width: 500px;
     height: 200px;
+  }
+  @media print {
+    .noprint {visibility: hidden;}
   }
 </style>
 
