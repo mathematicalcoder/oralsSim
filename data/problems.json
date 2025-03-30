@@ -75,7 +75,7 @@
     {
       "source": "Mathira 2015 SR-E2",
       "timeLimit": "30",
-      "problem": "Let a 5-digit number be termed a \"valley\" number if the digits (not necessarily distinct) in the number $\\overline{abcde}$ satisfy $a>b>c$ and $c<d<e$. Compute the number of valley numbers that start with 4.",
+      "problem": "Let a 5-digit number be termed a \"valley\" number if the digits (not necessarily distinct) in the number $\\overline{abcde}$ satisfy $a\\gt b\\gt c$ and $c\\lt d\\lt e$. Compute the number of valley numbers that start with 4.",
       "answer": "185"
     },
     {
@@ -203,6 +203,252 @@
       "timeLimit": "10",
       "problem": "What is the units digit of $2023^{2021}+2021^{2023}$?",
       "answer": "4"
+    },
+    {
+      "source": "Mathira 2015 SR-E6",
+      "timeLimit": "30",
+      "problem": "If $\\log_{49}x=\\log_{28}(y\\sqrt{2015})=\\log_{16}(x+2y)$, then $\\frac xy=a\\sqrt b+c$ where $a,b,c$ are positive integers and $b$ is squarefree. Find $a+b+c$.",
+      "answer": "25"
+    },
+    {
+      "source": "Mathira 2015 SR-E7",
+      "timeLimit": "30",
+      "problem": "If $\\sin 2x=\\frac 23$, then $\\sin^6x+\\cos^6x=\\frac ab$ where $a,b$ are relatively prime positive integers. Find $a+b$.",
+      "answer": "5"
+    },
+    {
+      "source": "Mathira 2015 SR-E9",
+      "timeLimit": "30",
+      "problem": "Let $f(x)=x^5+3x^2+27$ have roots $r_1,r_2,r_3,r_4,r_5$. Let $g(x)=x^2-3$. What is the value of $g(r_1)g(r_2)g(r_3)g(r_4)g(r_5)$?",
+      "answer": "1053"
+    },
+    {
+      "source": "Mathira 2015 SR-E10",
+      "timeLimit": "30",
+      "problem": "Find the sum of the last two digits of $\\sum^{2015}_{n=1}n!+\\sum^{2014}_{n=1}n!+\\dots$.",
+      "answer": "9"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-E1",
+      "timeLimit": "20",
+      "problem": "What is the area of a regular dodecagon (a 12-sided polygon) inscribed in a circle of diameter 12?",
+      "answer": "108"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-E2",
+      "timeLimit": "30",
+      "problem": "Find the last two digits of $76^{2023^{2023}}.$",
+      "answer": "76"
+    },
+    {
+      "source": "Mathira 2015 SR-A6",
+      "timeLimit": "60",
+      "problem": "Let $f(x)$ be a polynomial function with degree 3 and positive integral coefficients less than 10. If $f(1)=16$, how many possible values are there for $f(10)$?",
+      "answer": "66"
+    },
+    {
+      "source": "Mathira 2016 SR-A7",
+      "timeLimit": "60",
+      "problem": "Find the sum of all real values of $x$ such that $$\\frac{8x^2+16x+2015}{3x^2+x+2010}=\\frac{9x^2+15x+2020}{4x^2+2015}.$$",
+      "answer": "-3"
+    },
+    {
+      "source": "Mathira 2015 SR-A8",
+      "timeLimit": "60",
+      "problem": "In the figure below, $ABCD$ is a square, $AD=5$, $DY=1$, and $\\tan\\frac{\\angle YAX}2=\\sqrt2-1$. If $BX=\\frac ab$ for relatively prime positive integers $a,b$, find $a+b$.\r\n\r\n<center><img src=\"https://i.ibb.co/0pLDM01k/image.png\"></center>",
+      "answer": "13"
+    },
+    {
+      "source": "Mathira 2015 SR-A9",
+      "timeLimit": "60",
+      "problem": "Let $S=1+11+111+\\dots+\\underbrace{111\\dots11}_{2015}$, where the last term has 2015 digits, each equal to 1. Find $\\left\\lceil\\frac{10^{2015}}S\\right\\rceil$.",
+      "answer": "8"
+    },
+    {
+      "source": "2018 Mathira Tier 2-1",
+      "timeLimit": "30",
+      "problem": "Jim wakes up alone in a hospital room after being unconscious for some time. He has no memory of when he was brought here. He sees his patient record and gathers the following information:<br>• Jim was first admitted to the hospital on a Monday.<br>• He had a birthday at most 2 weeks after he was admitted.<br>• His friends from MSA visited him for two whole days, once in his birthday and once more at least 3 weeks after he was admitted.<br>• He woke up on a Monday, at most 2 weeks after his birthday.<br>How many days was Jim confined in the hospital? ",
+      "answer": "28"
+    },
+    {
+      "source": "Mathira 2017 T1-2",
+      "timeLimit": "30",
+      "problem": "Find the sum of the last digits of $1^{2017},2^{2017},3^{2017},\\dots,1000^{2017}$.",
+      "answer": "4500"
+    },
+    {
+      "source": "Mathira 2017 T1-3",
+      "timeLimit": "30",
+      "problem": "Choko has a set of three numbers forming an arithmetic progression. Kiss has another set of three numbers forming a geometric progression. If I add the corresponding numbers of both progressions, I get 76, 70, and 88. Adding Choko's numbers, I obtain 156. What is the sum of Kiss's numbers?",
+      "answer": "78"
+    },
+    {
+      "source": "Mathira 2017 T2-1",
+      "timeLimit": "30",
+      "problem": "$\\textsf{Lee Cooper}$ has an $80\\times80\\times80$ cube composed of $1\\times1\\times1$ cubes. He paints the entire outer surface of the $80\\times80\\times80$ cube and then removes these painted cubes. He repeats this process until he can no longer remove any more cubes. If he gets a random $1\\times1\\times1$ cube, the probability that the cube is painted on at least 2 faces can be expressed as $\\frac ab$ for relatively prime positive integers $a,b$. Find $a+b$.",
+      "answer": "3319"
+    },
+    {
+      "source": "Mathira 2017 T2-2",
+      "timeLimit": "30",
+      "problem": "Roma, a mathematician, asked her son, Maro, to unlock a safe for her. She said the password $p$ is a prime number such that $32p+1$ is equal to the cube of a positive integer. What is the password?",
+      "answer": "1123"
+    },
+    {
+      "source": "Mathira 2017 T2-3",
+      "timeLimit": "30",
+      "problem": "Let $M$, $S$, and $A$ be the roots of the polynomial $f(x)=127x^3+1729x+8128$. Find $(M+S)^3+(S+A)^3+(M+A)^3$.",
+      "answer": "192"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-E3",
+      "timeLimit": "30",
+      "problem": "The figure below is constructed starting with a circle of radius 10. Its inscribed equilateral triangle is drawn, and then the triangle's incircle is added. This process is repeated to infinity. Find the sum of the radii of the circles.\r\n\r\n<center><img src=\"https://i.ibb.co/JWNPHWHV/image.png\" height='200'></center>",
+      "answer": "20"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-E4",
+      "timeLimit": "30",
+      "problem": "The circle $O$ has diameter $AB=12.$ Let $C$ be a point outside the circle such that $ABC$ is an equilateral triangle. If the area of the shaded region is of the form $X\\sqrt3+Y\\pi$ for some positive integers $X$ and $Y,$ what is $X+Y?$\r\n\r\n<center><img src=\"https://i.ibb.co/cSQR9286/image.png\" height=\"200\"></center>",
+      "answer": "24"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-E5",
+      "timeLimit": "15",
+      "problem": "What is the least number of colors needed to color a $100\\times100$ chessboard such that no two vertically, horizontally, and diagonally adjacent squares have the same color?",
+      "answer": "4"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-A1",
+      "timeLimit": "60",
+      "problem": "The regular hexagon $ABCDEF$ is inscribed in a circle of radius $4\\sqrt[4]{3}.$ Let $G$ be a point on $DE$ such that $DG:GE=3:1.$ What is the area of pentagon $ABGEF?$",
+      "answer": "42"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-A2",
+      "timeLimit": "60",
+      "problem": "Let $X$ be the product of all odd integers from 1 to 49, inclusive. What are the last three digits of $X?$",
+      "answer": "625"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-A3",
+      "timeLimit": "60",
+      "problem": "Let $$P(x)=x^6+x^5+x^4+x^3+x^2+x+1$$ and $D(x)=x^2-1.$ If the remainder of $P(x)$ when divided by $D(x)$ is $R(x),$ what is $R(100)?$",
+      "answer": "304"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-A4",
+      "timeLimit": "60",
+      "problem": "Anna the Anaconda can clean her burrow in $x$ hours, while Sally the Spider can do the same in $y$ hours. If they can finish cleaning it together in $4$ hours, and $x$ and $y$ are positive integers, then what is the largest possible value of $x+y?$",
+      "answer": "25"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-A5",
+      "timeLimit": "60",
+      "problem": "Basti the Beaver has 10 children, called kits, that are sitting in a circle. He wants to make them play with each other, so he will be giving then four toys such that each kit will have at most one toy and that no adjacent kits both have toys. How many ways can Basti give the toys?",
+      "answer": "420"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-D1",
+      "timeLimit": "90",
+      "problem": "The regular tetrahedron $ABCD$ has side length $10\\sqrt6$ cm. If the radius of its inscribed sphere is $r$ and the radius of its circumscribed sphere is $R,$ what is $(R-r),$ in centimeters?",
+      "answer": "10"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-D2",
+      "timeLimit": "90",
+      "problem": "Let the function $g$ satisfy the equation $$(2023^3)g(-x)-x^3g\\left(\\frac1x\\right)=-54x^3$$ for all nonzero real numbers $x.$ What is $g(2023)?$",
+      "answer": "54"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-D3",
+      "timeLimit": "90",
+      "problem": "If $x>6,$ where $x$ is a positive integer, then what is the smallest possible value of $x$ such that $x(x-5)$ leaves a remainder of $6$ when divided by $36?$",
+      "answer": "15"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-D4",
+      "timeLimit": "90",
+      "problem": "A paper in the shape of an equilateral triangle with side length 60 is folded as follows, such that $AB=12.$ If $r$ is the radius of the incircle of $\\triangle BDE,$ what is $r^2?$ <center><img src=\"https://i.ibb.co/Rk4PC5xD/image.png\" height='200'></center>",
+      "answer": "48"
+    },
+    {
+      "source": "Sipnayan 2023 JHS SF-D5",
+      "timeLimit": "30",
+      "problem": "In $\\triangle ABC$ with angle bisector $BD,$ $AB=9$ and $AD=6.$ If its perimeter is 35, find the length of $BC.$\r\n\r\n<center><img src=\"https://i.ibb.co/gLDySBs5/image.png\" height='200'></center>",
+      "answer": "12"
+    },
+    {
+      "source": "AIME I 2010 / 1",
+      "timeLimit": "20",
+      "problem": "Maya lists all the positive divisors of $2010^2$. She then randomly selects two distinct divisors from this list. Let $p$ be the probability that exactly one of the selected divisors is a perfect square. The probability $p$ can be expressed in the form $\\frac {m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m + n$.",
+      "answer": "107"
+    },
+    {
+      "source": "AIME I 2010 / 2",
+      "timeLimit": "20",
+      "problem": "Find the remainder when $9 \\times 99 \\times 999 \\times \\cdots \\times \\underbrace{99\\cdots9}_{\\text{999 9's}}$ is divided by $1000$.",
+      "answer": "109"
+    },
+    {
+      "source": "AIME I 2010 / 3",
+      "timeLimit": "30",
+      "problem": "Suppose that $y = \\frac34x$ and $x^y = y^x$. The quantity $x + y$ can be expressed as a rational number $\\frac {r}{s}$, where $r$ and $s$ are relatively prime positive integers. Find $r + s$.",
+      "answer": "529"
+    },
+    {
+      "source": "AIME I 2010 / 4",
+      "timeLimit": "45",
+      "problem": "Jackie and Phil have two fair coins and a third coin that comes up heads with probability $\\frac47$. Jackie flips the three coins, and then Phil flips the three coins. Let $\\frac {m}{n}$ be the probability that Jackie gets the same number of heads as Phil, where $m$ and $n$ are relatively prime positive integers. Find $m + n$.",
+      "answer": "515"
+    },
+    {
+      "source": "AIME I 2010 / 5",
+      "timeLimit": "45",
+      "problem": "Positive integers $a$, $b$, $c$, and $d$ satisfy $a > b > c > d$, $a + b + c + d = 2010$, and $a^2 - b^2 + c^2 - d^2 = 2010$. Find the number of possible values of $a$.",
+      "answer": "501"
+    },
+    {
+      "source": "AIME II 2010 / 1",
+      "timeLimit": "20",
+      "problem": "Let $N$ be the greatest integer multiple of $36$ all of whose digits are even and no two of whose digits are the same. Find $N$.",
+      "answer": "8640"
+    },
+    {
+      "source": "AIME II 2010 / 2",
+      "timeLimit": "30",
+      "problem": "A point $P$ is chosen at random in the interior of a unit square $S$. Let $d(P)$ denote the distance from $P$ to the closest side of $S$. The probability that $\\frac{1}{5}\\le d(P)\\le\\frac{1}{3}$ is equal to $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",
+      "answer": "281"
+    },
+    {
+      "source": "AHSC 1970 / 7",
+      "timeLimit": "30",
+      "problem": "Inside square $ABCD$ with side $s$, quarter-circle arcs with radii $s$ and centers at $A$ and $B$ are drawn. These arcs intersect at point $X$ inside the square. The distance from $X$ to side $CD$ can be expressed as $\\frac{a-\\sqrt b}c$ where $a,b,c$ are positive integers and $b$ is squarefree. Find $a+b+c$.",
+      "answer": "7"
+    },
+    {
+      "source": "AHSC 1970 / 19",
+      "timeLimit": "45",
+      "problem": "The sum of an infinite geometric series with common ratio $r$ such that $|r|<1$, is $15$, and the sum of the squares of the terms of this series is $45$. What is the first term of the series?",
+      "answer": "5"
+    },
+    {
+      "source": "AHSC 1970 / 23",
+      "timeLimit": "20",
+      "problem": "The number $10!$ ($10$ is written in base $10$), when written in the base $12$ system, ends in exactly $k$ zeroes. Find the value of $k$.",
+      "answer": "4"
+    },
+    {
+      "source": "AHSC 1971 / 14",
+      "timeLimit": "30",
+      "problem": "The number $(2^{48}-1)$ is exactly divisible by two numbers between $60$ and $70$. If these numbers are $a,b$ where $a\\lt b$, find $100a+b$.",
+      "answer": "6365"
+    },
+    {
+      "source": "AHSC 1971 / 27",
+      "timeLimit": "30",
+      "problem": "A box contains chips, each of which is red, white, or blue. The number of blue chips is at least half the number of white chips, and at most one third the number of red chips. The number which are white or blue is at least $55$. Find the minimum number of red chips.",
+      "answer": "57"
     }
   ]
 }
