@@ -449,6 +449,102 @@
       "timeLimit": "30",
       "problem": "A box contains chips, each of which is red, white, or blue. The number of blue chips is at least half the number of white chips, and at most one third the number of red chips. The number which are white or blue is at least $55$. Find the minimum number of red chips.",
       "answer": "57"
+    },
+    {
+      "source": "AMC 10A 2024 / 3",
+      "timeLimit": "20",
+      "problem": "What is the smallest prime that can be written as a sum of $5$ distinct primes?",
+      "answer": "43"
+    },
+    {
+      "source": "AMC 10A 2024 / 4",
+      "timeLimit": "30",
+      "problem": "What is the least value of $n$ such that $n!$ is a multiple of $2024$?",
+      "answer": "23"
+    },
+    {
+      "source": "AMC 10A 2024 / 6",
+      "timeLimit": "15",
+      "problem": "What is the minimum number of successive swaps of adjacent letters in the string ABCDEF that are needed to change the string to FEDCBA? (For example, 3 swaps are required to change ABC to CBA; one such sequence of swaps is ABC $\\rightarrow$ BAC $\\rightarrow$ BCA $\\rightarrow$ CBA.)",
+      "answer": "15"
+    },
+    {
+      "source": "AMC 10B 2024 / 7",
+      "timeLimit": "30",
+      "problem": "What is the remainder when $7^{2024}+7^{2025}+7^{2026}$ is divided by $19$?",
+      "answer": "0"
+    },
+    {
+      "source": "AMC 10B 2024 / 10",
+      "timeLimit": "30",
+      "problem": "Quadrilateral $ABCD$ is a parallelogram, and $E$ is the midpoint of the side $\\overline{AD}$. Let $F$ be the intersection of lines $EB$ and $AC$. The ratio of the area of quadrilateral $CDEF$ to the area of triangle $CFB$ is $x:y$ where $x,y$ are relatively prime positive integers. Find $x+y$.",
+      "answer": "9"
+    },
+    {
+      "source": "AMC 10B 2024 / 9",
+      "timeLimit": "20",
+      "problem": "Real numbers $a,b$ and $c$ have arithmetic mean $0$. The arithmetic mean of $a^2, b^2$ and $c^2$ is $10$. What is the arithmetic mean of $ab, ac$ and $bc$?",
+      "answer": "-5"
+    },
+    {
+      "source": "Sipnayan 2025 GS F-E2",
+      "timeLimit": "20",
+      "problem": "A restaurant sells customizable sandwiches. The restaurant has four different types of bread, five different types of meat, and three different types of vegetables. Each customer must choose exactly one type of bread, exactly one type of meat, and at most one type of vegetable. How many different sandwiches can a customer create?",
+      "answer": "80"
+    },
+    {
+      "source": "Sipnayan 2025 GS F-E3",
+      "timeLimit": "10",
+      "problem": "One apple and two bananas cost 17 pesos. Two apples and one banana cost 19 pesos. How much is the total cost of one apple and one banana (in pesos)?",
+      "answer": "12"
+    },
+    {
+      "source": "Sipnayan 2025 GS F-E5",
+      "timeLimit": "20",
+      "problem": "A wizard gives a mystery box to a man with an unknown number of apples in it. The wizard tells the man, \"You may divide the apples equally among seven people, but there would be four apples left over, or alternatively, you may divide the apples equally among nine people, but there would be five apples left over.\" What is the smallest possible number of apples in the box?",
+      "answer": "32"
+    },
+    {
+      "source": "Sipnayan 2025 GS F-A1",
+      "timeLimit": "15",
+      "problem": "What is the least positive integer that can be multiplied to $2025^2$ to make it a perfect cube?",
+      "answer": "75"
+    },
+    {
+      "source": "Sipnayan 2025 GS F-A2",
+      "timeLimit": "20",
+      "problem": "A farmer wants to enclose a rectangular pen using a fencing material. Additionally, he also wants to fence one of its diagonals. If the ratio of the width to the length of the pen is $3:4$ and its area is 192 square meters, how many meters of fencing material does he need in total?",
+      "answer": "76"
+    },
+    {
+      "source": "Sipnayan 2025 GS F-A5",
+      "timeLimit": "20",
+      "problem": "If $a$ is a positive number such that $a^2=64$, then the value of $$a^1\\times a^2\\times a^3\\times a^4\\times a^5\\times a^6\\times a^7\\times a^8$$ can be expressed as $2^n$ for some positive integer $n$. Find the value of $n$.",
+      "answer": "108"
+    },
+    {
+      "source": "Mathira 2025 W1-2",
+      "timeLimit": "15",
+      "problem": "Find the sum of all solutions to the equation $\\sqrt{x}^{\\left(\\sqrt x^{\\sqrt x}\\right)}=\\left(\\sqrt x^{\\sqrt x}\\right)^{\\sqrt x}$.",
+      "answer": "5"
+    },
+    {
+      "source": "Mathira 2025 W3-1",
+      "timeLimit": "20",
+      "problem": "In octagon $ABCDEFGH$, $AB=CD=EF=GH=5$ and $BC=DE=FG=HA=32\\sqrt2$. Find the length of $GD$ in simplest form.",
+      "answer": "69"
+    },
+    {
+      "source": "Mathira 2024 T12-DoD1",
+      "timeLimit": "5",
+      "problem": "If $\\log_{10}x=3$, find $\\log_{10}x^2$.",
+      "answer": "6"
+    },
+    {
+      "source": "Mathira 2024 T10-2",
+      "timeLimit": "25",
+      "problem": "The absolute value of the minimum of $2x^2+2y^2+2xy-x+6y$ if $x,y\\in\\mathbb R$ is $\\frac ab$ where $a,b$ are relatively prime positive integers. Find $a+b$.",
+      "answer": "49"
     }
   ]
 }
