@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node server.js",
     "start": "node server.js",
-    "build": "npm run build"
+    "build": "node server.js"
   },
   "keywords": [
     "matholympiad"
