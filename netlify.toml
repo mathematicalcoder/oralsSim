@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "public" # Change to whatever your public folder name is if you use one
+
+[functions]
+  external_node_modules = ["express", "express-handlebars", "hbs"]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/*"
+  status = 200
+  to = "/.netlify/functions/server"
+  force = true
