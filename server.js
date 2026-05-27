@@ -41,7 +41,7 @@ app.post('/add/submit', (req, res) => {
       res.redirect('/add');
     } catch (error) {
       console.error(error);
-      res.status(500).send('Error registering the problem!');
+      res.status(500).send('Error registering the problem!<br><br>'+error);
     }
 });
 
