@@ -5,6 +5,7 @@
 [functions]
   external_node_modules = ["express", "express-handlebars", "hbs"]
   node_bundler = "esbuild"
+  included_files = ["data/problems.json"]
 
 [[redirects]]
   from = "/*"
